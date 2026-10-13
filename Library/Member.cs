@@ -51,7 +51,7 @@ namespace Library
                 // Ensure name does not contain any numbers
                 if (!value.Any(char.IsDigit) && value != "")
                 {
-                    address = value;
+                   address = value;
                 }
                 else
                 {
@@ -67,7 +67,7 @@ namespace Library
         }
 
         // Constructor using standard C# casing conventions
-        public Member(int memberId, string memberName, string memberAddress, int memberPhone)
+        public  Member(int memberId, string memberName, string memberAddress, int memberPhone)
         {
             this.MemberId = memberId;
             this.Name = memberName;
